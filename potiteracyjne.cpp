@@ -3,7 +3,7 @@ using namespace std;
 
 int pot_iter(int baza_, int wyk_) //pot_iter zwraca wartosc typu int
 {
-    int wynik_ = 1; //zeby nie bylo przypadkowej wartosci wpisujemy 1 do zmiennej
+    int wynik_ = 1; //inicjalizacja zmiennej typu int o wartosci 1
     //int a = 0;
     //int n = ; 
     
