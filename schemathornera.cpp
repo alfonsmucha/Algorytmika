@@ -22,7 +22,7 @@ int main()
     cout << "Podaj stopien wielomianu: ";
     cin >> st;
     
-    int *wsp = new int [st+1]; //deklaracja wskaznika wsp bedzie wskazywal tablice zmiennych typu int o wielkosci stopien+1
+    int *wsp = new int [st+1]; //deklaracja wskaznika wsp wskazuje tablice zmiennych typu int o wielkosci stopien+1
     
     for (int i = 0; i <= st; i++)
     {
