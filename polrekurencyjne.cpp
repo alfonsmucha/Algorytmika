@@ -1,10 +1,7 @@
 #include <iostream>
-#include <iomanip> 
-#include <cmath>
-
 using namespace std;
 
-double f(double x) //x zwraca wartosc typu int, argumenty sa wykorzystywane w obliczeniu wyniku
+double f(double x) //f zwraca wartosc typu double, argumenty sa wykorzystywane w obliczeniu wyniku
 {
    return x*(x*(x-3)+2)-6;
     
@@ -39,10 +36,7 @@ int main()
     double a = -10;
     double b = 10;
     double epsilon = 0.00001;
-    int precyzja = std::abs(std::log10(epsilon));
-    cout << fixed << setprecision(precyzja);
     
     cout<<"Znalezione miejsce wynosi: " << PolowieniePrzedzialow(a, b, epsilon);  //funkcja
  
-    return 0;
 }
